@@ -25,6 +25,14 @@ langchain-local-template/
 - VS Code (recommended for development)
 
 ## Setup
+ 
+### Quickstart
+Run the provided script to set up a virtual environment, install dependencies and start a demo chat:
+```bash
+chmod +x quickstart.sh
+./quickstart.sh
+```
+
 
 ### Make a copy of this repo
    ```bash
