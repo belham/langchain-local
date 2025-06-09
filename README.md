@@ -39,27 +39,34 @@ Or, on GitHub:
 * Name your new repository and set it to public or private as desired.
 
 ### Automated Setup
-First, make the setup scripts executable:
+#### macOS/Linux
+Make the setup scripts executable and run them:
 ```bash
 chmod +x env-setup/*.sh
-```
-Run both scripts to set up Python, Pipenv, and project dependencies:
-```bash
-./env-setup/setup-mac-python.sh
+./env-setup/setup-mac-python-env.sh
 ./env-setup/setup-langchain-project.sh
+```
+
+#### Windows
+From a PowerShell prompt run:
+```powershell
+./env-setup/setup-windows-python-env.ps1
+./env-setup/setup-windows-langchain-project.ps1
 ```
 
 #### Individual Setup
-You can also run the scripts individually:
+You can also run the scripts separately.
 
-1. Set up Python and Pipenv:
+**macOS/Linux**
 ```bash
-./env-setup/setup-mac-python.sh
+./env-setup/setup-mac-python-env.sh
+./env-setup/setup-langchain-project.sh
 ```
 
-2. Set up project dependencies with Pipenv:
-```bash
-./env-setup/setup-langchain-project.sh
+**Windows**
+```powershell
+./env-setup/setup-windows-python-env.ps1
+./env-setup/setup-windows-langchain-project.ps1
 ```
 
 
